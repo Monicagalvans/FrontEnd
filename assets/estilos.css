@@ -7,7 +7,7 @@ background: linear-gradient(90deg, rgb(11, 7, 80) 0%, rgba(9,9,121,1) 35%, rgba(
     color: rgb(0, 0, 255);
 }
 .fa-solid.fa-user-gear{
-    color: rgb(226, 21, 141);
+    color: rgb(37, 117, 104);
 }
 .navbar{
     background: rgb(115, 10, 253);
@@ -43,7 +43,7 @@ section.sobre{
     border-width: 5px;
     border-style:solid ;
     font-size:x-large;
-    color: rgb(201, 36, 36);
+    color: rgb(186, 199, 218);
     padding-top: 2%;
     padding-left: 30%;
     margin-top: 5px;
@@ -51,7 +51,7 @@ section.sobre{
     
 }
 #texto{
-    color: brown;
+    color: rgb(186, 199, 218);
     padding-left:  90px;
     padding-top: 5%;
     font-size: large;
@@ -69,7 +69,7 @@ section.experiencia {
     border-color: rgb(206, 179, 57);
     border-width: 5px;
     border-style:solid ;
-    color: brown;
+    color: rgb(186, 199, 218);
     font-size: x-large;
     padding-top: 5%;
     text-align: center;
@@ -84,7 +84,7 @@ section.educacion{
     text-align: center;
     margin-top: 5px;
     padding-top: 5%;
-    color: brown;
+    color: rgb(186, 199, 218);
     font-size: x-large;
 }
     
