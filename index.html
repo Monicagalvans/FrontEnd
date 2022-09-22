@@ -1,5 +1,5 @@
 <!DOCTYPE <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <title>maquetado web</title>
@@ -14,53 +14,86 @@
 <body>
   <header>
      <!--barra navegacion-->
-   <nav class="navbar bg-info">
+   <nav class="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="assets/img/abaTVeSC" alt="LOGO" width="15%">
       </a>
       <ul class="list-group list-group-horizontal">
-        <li class="list-group-item"><i class="fa-brands fa-facebook-f" class="btn btn-primary" href="https://www.facebook.com/monicasilvanagalvan" role="button"></i>
-        
+        <li class="list-group-item"><a class="fa-brands fa-facebook-f" class="btn btn-primary" href="https://www.facebook.com/monicasilvanagalvan" role="button"></a>
         <li class="list-group-item">
-          <i class="fa-solid fa-user-gear" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></button>
+        <i class="fa-solid fa-user-gear" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></button>
       </ul>
     </div>
     <!-- Button trigger modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">USUARIO</h5>
-        
-      </div>
-      <div class="modal-body">
-        <div class="mb-3 row">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">USUARIO</h5>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="staticEmail" value="email@dominio.com">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
           </div>
         </div>
-        <div class="mb-3 row">
-          <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">CERRAR</button>
+          <button type="button" class="btn btn-success">INGRESAR</button>
         </div>
+       </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
-        <button type="button" class="btn btn-primary">INGRESAR</button>
       </div>
-     </div>
+      </div>
     </div>
-    </div>
-   </nav>
-       
- 
-</header>
-
+  </div>
+    </nav>
+   
+      <!--banner-->
   
+  <section class="banner">
+
+  </section>
+     
+    <!--perfil-->
+    <section class="perfil">
+    <div>
+    <img id="foto" src="assets/img/perfil.jpeg" alt="foto">
+    <div id="texto">
+     <h2> Monica Galvan </h2>
+      En Proceso <br>
+      Algun Dia
+    </div>
+    </div>
+    </section>
+   <!--sobre mi-->
+    <section class="sobre">
+    <div>
+      <h1>Sobre Mi</h1><br>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat sapiente laudantium maxime hic dicta possimus quasi natus assumenda, dolorum iure? Sit aliquam quam mollitia illo soluta rem dolor optio doloribus?</p>
+    </div>
+  </section>
+  </header>
+  <section class="experiencia">
+  <div>
+    <h1>Experiencia Laboral</h1><br>
+  </div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque laborum vel assumenda amet voluptates et, necessitatibus suscipit dolor eius fugiat commodi vero eum enim similique dolore quaerat. Esse, vero!
+  </section>
+  <section class="educacion">
+    <h1> Educacion </h1><br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed suscipit exercitationem optio, aperiam repellat ducimus? Ut hic fugiat mollitia ad totam. Totam placeat dicta magnam velit ipsam architecto atque qui?</p>
+  </section>
+
   
   <!-- bootstrap JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
